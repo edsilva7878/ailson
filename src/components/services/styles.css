@@ -1,5 +1,6 @@
 .cards{
     background-image: url('../images/fundoServices.png');
+    background-size: cover;
     width: 100vw;
     height: 80vh;
     display: flex;

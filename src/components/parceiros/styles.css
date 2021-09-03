@@ -1,6 +1,7 @@
 
 .partners{
     background-image: url('../images/fundoPartners.png');
+    background-size: cover;
     width: 100vw;
     height: 80vh;
     display: flex;

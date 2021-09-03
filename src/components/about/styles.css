@@ -5,6 +5,7 @@
     justify-content: flex-end;
     align-items: center;
     background-image: url('../images/fundoAbout.png');
+    background-size: cover;
 }
 .cardAbout{
     display: flex;
