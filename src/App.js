@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from './components/home/index'
-import Menu from './components/menu/index'
 import About from './components/about/index'
 import Services from './components/services/index'
 import Parceiros from './components/parceiros/index'
