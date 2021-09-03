@@ -1,10 +1,19 @@
 import React from 'react'
-import Routes from './components/routes'
+import Home from './components/home/index'
+import Menu from './components/menu/index'
+import About from './components/about/index'
+import Services from './components/services/index'
+import Parceiros from './components/parceiros/index'
+import Footer from './components/footer/index'
 export default function App() {
   return (
     
     <div className="App">
-      <Routes/>
+      <Home/>
+      <About/>
+      <Services/>
+      <Parceiros/>
+      <Footer/>
     </div>
   );
 }

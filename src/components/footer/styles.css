@@ -1,0 +1,12 @@
+.footer{
+    background-color: white; 
+    color: black;
+    width: 100vw;
+    height: 6.5vh; 
+    font-family: Century Gothic;  
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

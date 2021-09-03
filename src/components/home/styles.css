@@ -1,0 +1,46 @@
+.wrapper{
+    background-image: url('../images/fundoHome.png');
+    width: 100vw;
+    height: 100vh;
+}
+.menu{
+    position: fixed;
+    top: 0;
+}
+.subTop{
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Century Gothic;
+    font-size: 8pt;
+
+}
+.top{
+    background-color: white;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 25pt;
+}
+.lineA{
+    width: 100vw;
+    height: 0.1vh;
+    background-color: brown;
+}
+.lineB{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 1vh;
+    background-color: brown;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
