@@ -1,24 +1,33 @@
-.wrapper{
-    background-image: url('../images/fundoHome.png');
-    background-size: cover;
+.top{
+    position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 0px 5px brown;
 }
-.menu{
-    position: fixed;
-    top: 0;
-}
-.subTop{
-    background-color: white;
+.subMenu{
+    background-color: brown;
+    color: white;
+    width: 100vw;
     height: 5vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Century Gothic;
     font-size: 8pt;
-
 }
-.top{
+.text{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.line{
+    width: 100vw;
+    box-shadow: 0px 0px 0px 1px brown;
+}
+.menu{
     background-color: white;
     width: 100vw;
     height: 15vh;
@@ -28,19 +37,27 @@
     font-family: Felix Titling;
     font-size: 25pt;
 }
-.lineA{
-    width: 100vw;
-    height: 0.1vh;
-    background-color: brown;
+.link{
+    color: inherit;
+    text-decoration: none;
+    font-size: 10pt;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+
 }
-.lineB{
-    position: relative;
-    z-index: 1;
-    width: 100vw;
-    height: 1vh;
-    background-color: brown;
+.link:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
 }
-.footer{
-    position: fixed;
-    bottom: 0;
+.links{
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

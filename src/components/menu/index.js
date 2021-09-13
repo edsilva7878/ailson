@@ -1,25 +1,30 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './styles.css'
 import Logo from '../images/logo.png'
-import Midias from '../images/midiasContact.png'
+import Midias from '../images/midias.png'
 
-export default function Menu(){
+export default function Home(){
     return (
-        <div className='menu'>
-            <div className='subTop'>
-            &nbsp; 
-                Fale conosco (11) 2935-3972 | 
-                ailsontenorioadv@gmail.com | 
-                Atendimento - seg a sex das 09 às 17hs 
-                <div className='submenu'> HOME | SOBRE | SERVIÇOS | PARCEIROS </div>
-
-                <img src={Midias} alt='midias'/>
-            </div>
-            <div className='lineA'></div>
             <div className='top'>
-                <img src={Logo} alt='logo'/>Ailson Tenório
+                <div className='subMenu'>
+                    <div className='text'>
+                        Fale conosco | 
+                        (11) 2935-3972 | 
+                        ailsontenorioadv@gmail.com | 
+                        Atendimento - Seg a Sex das 09 às 17hs
+                    </div>
+                    <nav className='links'>
+                        <Link to="/" className='link'>HOME</Link>
+                        <Link to="/about" className='link'>SOBRE</Link>
+                        <Link to="/services" className='link'>SERVIÇOS</Link>
+                     </nav>
+                    <img src={Midias} alt='midias'/>
+                </div>
+                <div className='menu'> 
+                    <img src={Logo} alt='logo'/>Dr. Ailson Tenório
+                </div>
             </div>
-            <div className='lineB'></div>
-        </div>
     )
 }
+

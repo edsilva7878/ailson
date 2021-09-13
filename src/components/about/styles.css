@@ -1,26 +1,55 @@
-.about{
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
+}
+.fundoHome{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentAbout{
+    width: 100vw;
+    height: 75vh;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    background-image: url('../images/fundoAbout.png');
-    background-size: cover;
 }
 .cardAbout{
+    position: relative;
+    width: 45vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15pt;
+    font-family: Century Gothic;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 0px 40px 40px 0px;
+}
+.cardAbout:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+
+}
+.description{
+    text-align: justify;
+    width: 25vw;
+    height: 40vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    height: 30vh;
-    background-color: black;
-    color: White;
-    text-align: justify;
+}
+.fotoAdv{
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 10px black;
-    padding: 50px;
-    margin-right:100px;
-    font-size: 12pt;
-    font-family: Century Gothic;
-    margin-left: 5vw;
 }

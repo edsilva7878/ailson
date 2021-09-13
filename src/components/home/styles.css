@@ -1,47 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
 .wrapper{
-    background-image: url('../images/fundoHome.png');
-    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
-.menu{
-    position: fixed;
-    top: 0;
-}
-.subTop{
-    background-color: white;
-    height: 5vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Century Gothic;
-    font-size: 8pt;
-
-}
-.top{
-    background-color: white;
+.fundoHome{
+    position: absolute;
+    z-index: 0;
     width: 100vw;
-    height: 15vh;
+    height: 100vh;
+}
+
+.content{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Felix Titling;
-    font-size: 25pt;
-}
-.lineA{
-    width: 100vw;
-    height: 0.1vh;
-    background-color: brown;
-}
-.lineB{
-    position: relative;
-    z-index: 1;
-    width: 100vw;
-    height: 1vh;
-    background-color: brown;
-}
-.footer{
-    position: fixed;
-    bottom: 0;
-}
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.664);
+    text-align: center;
+    margin: 5PX;
+    border-radius: 40px 0px 0px 40px;
+    transition: all 0.5s;
 
+}
+.card1:hover{
+    transition: all 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.card2{
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgba(165, 42, 42, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    margin: 5PX;
+    transition: all 0.5s;
+
+}
+.card2:hover{
+    transition: all 0.5s;
+    background-color: rgb(165, 42, 42);
+    color: white;
+}
+.card3{
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.671);
+    text-align: center;
+    margin: 5PX;
+    border-radius: 0px 40px 40px 0px;
+    transition: all 0.5s;
+}
+.card3:hover{
+    transition: all 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

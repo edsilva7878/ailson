@@ -1,23 +1,43 @@
-.cards{
-    background-image: url('../images/fundoServices.png');
-    background-size: cover;
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
+}
+.fundoServices{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentServices{
+    width: 100vw;
+    height: 75vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.card{
+.cardServices{
+    position: relative;
+    background-color: rgba(165, 42, 42, 0.699);
+    color: white;
+    padding: 20px;
+    width: 20.5vw;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 12vw;
-    height: 40vh;
-    background-color: white;
-    color: brown;
-    font-size: 10pt;
-    text-align: justify;
-    padding: 20px;
-    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 10px;
+    transition: all 0.5s;
 }
+.cardServices:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+
+}
+
