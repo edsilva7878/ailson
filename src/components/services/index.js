@@ -12,7 +12,7 @@ export default function Services(){
             <div className='contentServices'>
                 <div className='cardServices'>
                     <div>
-                        <h1>TRABALHISTA</h1><br/><br/>
+                        <h2>TRABALHISTA</h2><br/>
                     </div>
                     <div>
                         <li>RESCISÃO INDIRETA</li>
@@ -32,7 +32,7 @@ export default function Services(){
                     </div>
                 </div>
                 <div className='cardServices'>
-                <div><h1>CONSUMIDOR</h1></div><br/><br/>
+                <div><h2>CONSUMIDOR</h2></div><br/>
                     <div>
                         <li>RELAÇÃO DE CONSUMO</li>
                         <li>EMPRÉSTIMOS</li>
@@ -47,7 +47,7 @@ export default function Services(){
                     </div>
                 </div>
                 <div className='cardServices'>
-                <div><h1>CIVIL E FAMILIA</h1></div><br/><br/>
+                <div><h2>CIVIL E FAMILIA</h2></div><br/>
                 <div>
 
                         <li>RESPONSABILIDADE CIVIL</li>
@@ -72,7 +72,7 @@ export default function Services(){
                     </div>
                 </div>
                 <div className='cardServices'>
-                <div><h1>TRIBUTÁRIO</h1></div><br/><br/>
+                <div><h2>TRIBUTÁRIO</h2></div><br/>
                 <div>
                         <li>COMPENSAÇÃO DE TRIBUTOS</li>
                         <li>EXECUÇÕES FISCAIS</li>
