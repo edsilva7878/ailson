@@ -25,9 +25,9 @@
     background-color: rgba(165, 42, 42, 0.699);
     color: white;
     padding: 10px;
-    width: 15vw;
-    height: 35vh;
-    font-size: 7pt;
+    width: 18vw;
+    height: 40vh;
+    font-size: 8pt;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
