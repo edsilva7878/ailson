@@ -22,8 +22,8 @@
 }
 .cardAbout{
     position: relative;
-    width: 40vw;
-    height: 50vh;
+    width: 50vw;
+    height: 40vh;
     background-color: black;
     display: flex;
     justify-content: space-evenly;
