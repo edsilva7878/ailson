@@ -9,13 +9,13 @@
 .fundoServices{
     position: absolute;
     z-index: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .contentServices{
-    width: 100%;
-    height: 75%;
+    width: 100vw;
+    height: 75vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,9 +24,10 @@
     position: relative;
     background-color: rgba(165, 42, 42, 0.699);
     color: white;
-    padding: 20px;
-    width: 20.5%;
-    height: 80%;
+    padding: 10px;
+    width: 15vw;
+    height: 45vh;
+    font-size: 9pt;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

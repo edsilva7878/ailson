@@ -18,7 +18,8 @@ export default function Services(){
                         <li>RESCISÃO INDIRETA</li>
                         <li>VERBAS TRABALHISTA</li>
                         <li>AUSÊNCIA DE REGISTRO</li>
-                        <li>INSALUBRIDADE E PERICULOSIDADE</li>
+                        <li>INSALUBRIDADE</li>
+                        <li>PERICULOSIDADE</li>
                         <li>PAGAMENTO POR FORA</li>
                         <li>DEMISSÃO DE GESTANTE</li>
                         <li>ACIDENTADOS </li> 
@@ -54,10 +55,12 @@ export default function Services(){
                         <li>AÇÃO DE COBRANÇA</li>
                         <li>LOCAÇÃO</li>
                         <li>CONTRATOS EM GERAL</li>
-                        <li>INDENIZAÇÕES - DIREITO CIVIL</li>
-                        <li>DIVÓRCIO CONSENSUAL OU LITIGIOSO</li>
+                        <li>INDENIZAÇÕES</li>
+                        <li>DIVÓRCIO CONSENSUAL</li>
+                        <li>DIVÓRCIO LITIGIOSO</li>
                         <li>UNIÃO ESTÁVEL</li>
-                        <li>INVENTÁRIO JUDICIAL OU EXTRAJUDICIAL</li>
+                        <li>INVENTÁRIO JUDICIAL</li>
+                        <li>INVENTÁRIO EXTRAJUDICIAL</li>
                         <li>AÇÃO DE ALIMENTOS</li>
                         <li>PENSÃO</li>
                         <li>GUARDA DE MENORES</li>
