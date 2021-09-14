@@ -22,8 +22,8 @@
 }
 .card1{
     position: relative;
-    width: 20vw;
-    height: 15vh;
+    width: 20%;
+    height: 20%;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
@@ -44,8 +44,8 @@
 }
 .card2{
     position: relative;
-    width: 20vw;
-    height: 15vh;
+    width: 20%;
+    height: 20%;
     background-color: rgba(165, 42, 42, 0.692);
     display: flex;
     justify-content: center;
@@ -65,8 +65,8 @@
 }
 .card3{
     position: relative;
-    width: 20vw;
-    height: 15vh;
+    width: 20%;
+    height: 20%;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
