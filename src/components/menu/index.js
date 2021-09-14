@@ -19,10 +19,10 @@ export default function Home(){
                         <Link to="/about" className='link'>SOBRE</Link>
                         <Link to="/services" className='link'>SERVIÇOS</Link>
                      </nav>
-                    <img src={Midias} alt='midias'/>
+                    <img src={Midias} className='midias' alt='midias'/>
                 </div>
                 <div className='menu'> 
-                    <img src={Logo} alt='logo'/>Dr. Ailson Tenório
+                    <img src={Logo} className='logo' alt='logo'/>Dr. Ailson Tenório
                 </div>
             </div>
     )

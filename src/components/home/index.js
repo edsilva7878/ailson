@@ -17,7 +17,7 @@ export default function Home(){
                   CREDIBILIDADE
                 </div>
                 <div className='card3'>
-                    TRASNPARÊNCIA
+                    TRANSPARÊNCIA
                 </div>
             </div>
             <Footer/>

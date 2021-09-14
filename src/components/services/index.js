@@ -73,7 +73,7 @@ export default function Services(){
                 <div>
                         <li>COMPENSAÇÃO DE TRIBUTOS</li>
                         <li>EXECUÇÕES FISCAIS</li>
-                        <li>DFESA DE AUTUAÇÃO FISCAL</li>
+                        <li>DEFESA DE AUTUAÇÃO FISCAL</li>
                         <li>PARCELAMENTOS</li>
                         <li>PEDIDOS DE RESTITUIÇÃO</li>
                         <li>GESTÃO DE PASSIVO TRIBUTÁRIO</li>
