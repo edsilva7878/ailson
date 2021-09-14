@@ -23,13 +23,13 @@
 .card1{
     position: relative;
     width: 20vw;
-    height: 30vh;
+    height: 15vh;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Felix Titling;
-    font-size: 20pt;
+    font-size: 10pt;
     color: rgba(0, 0, 0, 0.664);
     text-align: center;
     margin: 5PX;
@@ -45,13 +45,13 @@
 .card2{
     position: relative;
     width: 20vw;
-    height: 30vh;
+    height: 15vh;
     background-color: rgba(165, 42, 42, 0.692);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Felix Titling;
-    font-size: 20pt;
+    font-size: 10pt;
     color: white;
     text-align: center;
     margin: 5PX;
@@ -66,13 +66,13 @@
 .card3{
     position: relative;
     width: 20vw;
-    height: 30vh;
+    height: 15vh;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Felix Titling;
-    font-size: 20pt;
+    font-size: 10pt;
     color: rgba(0, 0, 0, 0.671);
     text-align: center;
     margin: 5PX;
@@ -84,9 +84,4 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-.textCard{
-    max-width: 90%;
-    font-size: 20pt;
-    display: flex;
-    justify-content: center;
-}
+
