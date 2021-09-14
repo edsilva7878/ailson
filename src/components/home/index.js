@@ -11,13 +11,13 @@ export default function Home(){
             <Menu/>
             <div className='content'>
                 <div className='card1'>
-                    EXPERIÊNCIA
+                    <h1 className='textCard'>EXPERIÊNCIA</h1>
                 </div>
                 <div className='card2'>
-                  CREDIBILIDADE
+                <h1 className='textCard'>CREDIBILIDADE</h1>
                 </div>
                 <div className='card3'>
-                    TRANSPARÊNCIA
+                <h1 className='textCard'>TRANSPARÊNCIA</h1>
                 </div>
             </div>
             <Footer/>
