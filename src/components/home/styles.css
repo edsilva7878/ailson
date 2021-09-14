@@ -85,7 +85,7 @@
     color: rgb(0, 0, 0);
 }
 .textCard{
-    max-width: 15vh;
+    max-width: 90%;
     font-size: 20pt;
     display: flex;
     justify-content: center;
